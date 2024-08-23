@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Finlandica", sans-serif;;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #0082C8;
+}
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0082C8;
+    transition: opacity 0.5s ease-in-out;
+}
+.login-container img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.login-container input {
+    margin: 10px 0;
+    width: 100%;
+}
+.portfolio-content {
+    display: none;
+    background-color: white;
+}
+
+
+.navbar{
+    background: linear-gradient(#07729c83, rgba(1, 11, 15, 0.52));
+    
+}
+
+#welTitle{
+    padding-top: 5%;
+}
+
+#acerca {
+    background-color: rgb(208, 208, 226);
+    font-size: x-large;
+    padding-bottom: 2%;
+    background: linear-gradient(#ce5aeb83, rgba(33, 16, 16, 0.52)), url("../img/1521664700304.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.photo {
+    max-width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+    display: block; 
+}
+
+#skills{
+    background: linear-gradient(#ce5aeb83, rgba(33, 16, 16, 0.52)), url("../img/1611858044359.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 25px;
+    padding-bottom: 10%;
+    
+}
+.nes-progress {
+    width: 100%; 
+    max-width: 100%; 
+}
+
+.card{
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item.active .custom-card {
+    z-index: 20; /* Mayor valor para la carta activa */
+}
+
+footer{
+    height: 6vh;
+    background-color: rgb(196, 41, 66);
+}
